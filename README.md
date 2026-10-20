@@ -8,7 +8,7 @@
 #define BUZZER 23      // Buzzer signal (+)
 #define RELAY_PIN 22   // Relay module IN
 
-// Most 1-channel relay modules are active-LOW (LOW = relay ON).
+// Most 1-channel relay modules are active-LOW (LOW = relay ON)
 #define RELAY_ACTIVE_LOW true
 
 int threshold = 2000; // > 2000 = DRY, <= 2000 = WET
